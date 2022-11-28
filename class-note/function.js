@@ -1,5 +1,24 @@
-const sum = (a, b) => {
-  return a + b;
-};
+class Playerrr {
+  #secondName;
+  constructor(firstName) {
+    this.firstName = firstName;
+  }
+  // second(secondName) {
+  //   this.#secondName = secondName;
+  // }
+  second() {
+    this.#secondName = "hooon";
+  }
+  // returnSecond(secondName) {
+  //   this.second(secondName);
+  //   return this.#secondName;
+  // }
+}
 
-sum(10, 20, 30, 40, 50);
+// const leeerer = new Playerrr("lee", "seunghoon");
+// console.log(lee.returnSecond("hooooon"));
+
+const aaa = new Playerrr("lee");
+aaa.second();
+
+console.log(aaa._secondName);
